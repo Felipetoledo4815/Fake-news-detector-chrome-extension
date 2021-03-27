@@ -1,0 +1,13 @@
+{
+    "name": "Fake News Extension",
+    "description": "An extension which alerts a user to potential fake news",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "tabs", "scripting", "activeTab"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+  }
