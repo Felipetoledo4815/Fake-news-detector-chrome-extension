@@ -6,7 +6,12 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage", "tabs", "scripting", "activeTab"],
+    "content_scripts": [{
+        "matches" : ["*://*/*"],
+        "js": ["jquery-3.6.0.min.js", "mlrequest.js"],
+        "run_at": "document_end"
+      }],
+    "permissions": ["storage", "tabs", "scripting", "activeTab", "nativeMessaging"],
     "action": {
         "default_popup": "popup.html"
     }
