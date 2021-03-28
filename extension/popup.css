@@ -2,16 +2,37 @@
 position: absolute;
 top: 25%;
 }
-.container {
+.heading {
 display: flex;
 }
-.one {
+.left {
 flex: 0 0 15%;
 position: relative;
 }
-.two {
+.right {
 flex: 1;
 }
-#the_body {
+.body {
 width: 275px;
+}
+.default {
+    display: block;
+}
+.detected {
+    display: none;
+}
+.detected_icon {
+    position: absolute;
+    color: red; 
+    top: 25%;
+}
+.detected_header {
+    color: red;
+}
+.detected_left {
+    flex: 0 0 15%;
+    position: relative;
+}
+.detected_right {
+    flex: 1;
 }
