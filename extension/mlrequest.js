@@ -4,6 +4,9 @@ chrome.runtime.onMessage.addListener(
                 "from a content script:" + sender.tab.url :
                 "from the extension");
       var ans = request.greeting.concat('made it to mlrequest');
+      chrome.storage.local.set({key: request.greeting}, function() {
+        console.log('Value is set to ' + value);
+      });
       sendResponse({farewell: ans});
   }
 );
