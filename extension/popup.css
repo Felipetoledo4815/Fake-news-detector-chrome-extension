@@ -1,0 +1,17 @@
+.icon {
+position: absolute;
+top: 25%;
+}
+.container {
+display: flex;
+}
+.one {
+flex: 0 0 15%;
+position: relative;
+}
+.two {
+flex: 1;
+}
+#the_body {
+width: 275px;
+}
