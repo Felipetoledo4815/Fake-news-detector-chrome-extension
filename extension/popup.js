@@ -4,8 +4,9 @@
 // chrome.storage.sync.get("color", ({ color }) => {
 //   changeColor.style.backgroundColor = color;
 // });
-chrome.storage.local.get(['key'], function(result) {
-  var data = JSON.stringify({text: [new String("pass title here")]});
+chrome.storage.local.get('key', function(result) {
+  console.log(result);
+  var data = JSON.stringify({text: [new String(result.key)]});
 
   var xhr = new XMLHttpRequest();
   xhr.open("POST", "http://127.0.0.1:5000/predict", true);
