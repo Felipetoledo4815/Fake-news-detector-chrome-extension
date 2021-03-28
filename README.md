@@ -10,6 +10,9 @@ Make sure you have the following python packages installed
 
 - Flask - 1.1.2
 - Scikit-learn - 0.24.1
+- Pandas - 1.1.3
+- Numpy - 1.19.2
+- Joblib - 1.0.1
 
 
 ### Extension
