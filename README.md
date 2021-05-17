@@ -1,6 +1,6 @@
-# fake_news_detector_chrome_extension
+# Fake news detector chrome extension
 
-A browser extension that detects fake news based on the titles of the tabs. Note that detecting if a news is fake or real based on the title is even hard for humans. In further work, we are planning to get the entire text of the news and update our machine learning classifier to make the predictions. For training the classifier we used the ["Fake and real news dataset"](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) from kaggle.
+This repository was created for the 2021 Hoohacks hackathon. We developed a browser extension that detects fake news based on the titles of the tabs. Note that detecting if a news is fake or real based on the title is even hard for humans. In further work, we are planning to get the entire text of the news and update our machine learning classifier to make the predictions. For training the classifier we used the ["Fake and real news dataset"](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset) from kaggle.
 
 
 ## Setup
